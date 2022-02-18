@@ -53,4 +53,4 @@ jobs:
           app-name: 'redes-dev'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_10BE7B2803A94BBB914266DE518C265A }}
-          package: .
+          package: build
